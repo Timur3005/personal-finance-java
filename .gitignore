@@ -1,0 +1,8 @@
+/target/
+/data/
+/exports/
+/.idea/
+*.iml
+.DS_Store
+/.superpowers/
+/docs/

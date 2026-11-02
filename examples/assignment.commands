@@ -1,0 +1,24 @@
+register student
+study-password-2026
+login student
+study-password-2026
+category add income "Зарплата"
+category add income "Бонус"
+category add expense "Еда"
+category add expense "Развлечения"
+category add expense "Коммунальные услуги"
+category add expense "Такси"
+income "Зарплата" 20000
+income "Зарплата" 40000
+income "Бонус" 3000
+budget set "Еда" 4000
+budget set "Развлечения" 3000
+budget set "Коммунальные услуги" 2500
+expense "Еда" 300
+expense "Еда" 500
+expense "Развлечения" 3000
+expense "Коммунальные услуги" 3000
+expense "Такси" 1500
+report
+report --type income --categories "Зарплата"
+exit
